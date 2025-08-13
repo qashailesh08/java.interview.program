@@ -10,7 +10,7 @@ public class FrequencyChecker {
 	 */
 	public static void main(String[] args) {
 		int[] arr = { 1, 2, 3, 2, 1, 2, 1, 1, 4, 5, 2 };
-		Map<Integer, Integer> freMap = new HashMap<Integer, Integer>();
+		Map<Integer, Integer> freMap = new HashMap();
 		for (int num : arr) {
 			freMap.put(num, freMap.getOrDefault(num, 0) + 1);
 		}

@@ -8,7 +8,7 @@ public class SecondLarge {
 	}
 
 	public static void findUsingForEachLoop() {
-		int[] num = { 1, 2, 20, 5, 4, 21, 9, 6, 10, 22 };
+		int[] num = { 1, 2, 20, 5, 4, 21, 9, 6, 10, 22,90 };
 		int first = 0;
 		int second = 0;
 		for (int n : num) {
